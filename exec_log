@@ -1,1 +1,1 @@
-python3 main.py | xargs echo "$(date). Output:"
+python3 main.py | xargs echo "$(date). Output:" >> ./log/main_log.txt
