@@ -1,2 +1,2 @@
-#!/usr/bin/env bash
-python3 main.py | xargs echo "$(date). Output:" >> ./logs/main_log.txt ; tail -n 1 ./logs/main_log.txt
+#!/usr/bin/bash
+python main.py | xargs "echo $(date). Output: " >> ./logs/main_log.txt ; tail -n 1 ./logs/main_log.txt
