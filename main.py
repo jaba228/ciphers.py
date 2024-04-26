@@ -1,6 +1,12 @@
 import sys
 import ciphers
-import pretty_print
+import sys
+
+
+sys.path.insert(1, "modules/")
+
+
+from modules import pretty_print
 
 
 def print_help() -> None:
