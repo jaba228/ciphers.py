@@ -1,3 +1,8 @@
+ALPHA = ""
+
+for n in range(97, 124):
+    ALPHA += chr(n)
+
 def caesar(message: str, step: int, alpha: str) -> str:
     encrypted_message = ""
 
